@@ -1,0 +1,36 @@
+name: Generate GitHub Contribution Snake
+
+on:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Contribution Snake
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: Devmustee
+          svg_out_path: output/github-contribution-grid-snake.svg
+
+      - name: Generate GitHub Contribution Snake (Dark)
+        uses: Platane/snk@v3
+        id: snake-gif-dark
+        with:
+          github_user_name: Devmustee
+          svg_out_path: output/github-contribution-grid-snake-dark.svg
+          color: '#0d1117'
+
+      - name: Push to GitHub
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          force: true
