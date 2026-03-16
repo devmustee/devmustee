@@ -1,5 +1,5 @@
 # 💫 Hi I'm devmustee (Engr. Mustapha Mohammed)
-🔭 How to reach me: Engineermandara@gmail.com<br>👯 I’m looking to collaborate on open-source projects<br>🤝 I’m looking for help with advanced JavaScript concepts<br>💬 Ask me about web development and design<br>⚡ Fun fact: I love Anime and Badminton<br> 
+🔭 How to reach me: Engineermandara@gmail.com<br>👯 I’m looking to collaborate on open-source projects<br>🤝 I’m looking for help with advanced JavaScript concepts<br>💬 Ask me about web development and design<br>⚡ Fun fact: I love Memecoins<br> 
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/dev_mustee) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@dev_mustee) 
